@@ -30,12 +30,30 @@ elif score <60:
     print("failed")
 else:
     print("Type your score again:")
+    
+
+if score >= 90 and score <= 100:
+    print("Grade: A")
+elif score >= 80 and score < 90:
+    print("Grade: B")
+elif score >= 70 and score < 80:
+    print("Grade: C")
+if score >= 60 and score < 70:
+    print("Grade: D")
+elif score < 60:
+    print("Grade: F")  
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-
+number = int(input("Enter a number (0-150):"))
+if number >= 50 and number <= 100:
+    print("Ding!")
+else:
+    print("Try again...")
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+x = 13
+print (x == 0)
+print(x > 10)
 # Use chained comparison to check if 3 < 4 < 5.
 
 # Challenge: Create a password rule using logical operators:
