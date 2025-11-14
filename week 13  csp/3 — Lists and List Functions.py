@@ -27,6 +27,25 @@ my_list1.extend(list(range(516, 1116)))
 print(my_list1)
 
 
+new_list = ['a','b','c']
+print(new_list)
+new_list.append('d')
+print(new_list)
+removed_item = new_list.pop(1)
+print(removed_item)
+print(new_list)
+removed_second_item = new_list.pop(1)
+print(removed_second_item)
+print(new_list)
+
+numbers = [4,2,5,1, 3]
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers.insert(2,10)
+print(numbers)
+
 
 my_list = ['apple', 'banana', 'cherry']
 print(my_list[0])         # apple
