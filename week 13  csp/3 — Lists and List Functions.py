@@ -6,6 +6,28 @@
 
 # Examples:
 
+my_list1 = [1,2,3,4,5]
+print(my_list1)
+print(type(my_list1))
+# instead of typing a bunch  of variables we can put them in this list
+# Makes our job easier
+# Performance task answer:
+print(my_list1[0])
+print(my_list1[1:4])
+print(my_list1[0:])
+my_list1.append(6)
+my_list1.append(7)
+my_list1.append(8)
+my_list1.extend([10,11,12,13,14])
+print(my_list1)
+# 500 more numbers
+my_list1.extend(list(range(15, 515)))
+print(my_list1)
+my_list1.extend(list(range(516, 1116)))
+print(my_list1)
+
+
+
 my_list = ['apple', 'banana', 'cherry']
 print(my_list[0])         # apple
 print(my_list[1:])        # ['banana', 'cherry']
